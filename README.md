@@ -2,6 +2,8 @@
 
 一个简易的DOH服务器，可以部署在CF上，转发Google的DNS服务 (https://dns.google/dns-query)  ，可以用于ECH代理
 
+Gemini写的代码，希望有大佬可以帮忙改进一下
+
 
 ## 特点：
 
