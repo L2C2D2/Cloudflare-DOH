@@ -17,7 +17,7 @@
 
 1，有Snippets的尽量在Snippets上部署，没有的就在works上部署
 
-2，在CF上部署代码 (代码开头的变量需要修改一下)：
+2，将_worker.js里的代码复制粘贴到Snippets或works上，代码开头的变量需要修改一下：
 
     const AUTH_TOKEN = 'pass';  --这里修改Token，也就是密码；保留单引号
     
