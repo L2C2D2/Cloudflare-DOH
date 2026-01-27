@@ -41,6 +41,6 @@
 
 1，在代理客户端中测试：SNI使用被墙的works域名，然后ECH填入： `cloudflare-ech.com+https://域名/路径?token=密码`，然后测试真连接
 
-2，在浏览器中测试：关闭代理 (一定要关闭代理，不然无法测试)，在浏览器的选项里找到“安全DNS”，选择自定义服务，地址填入`cloudflare-ech.com+https://域名/路径?token=密码`，然后打开这两个网址查看：
+2，在浏览器中测试：关闭代理 (一定要关闭代理，不然无法测试)，在浏览器的选项里找到“安全DNS”，选择自定义服务，地址填入`https://域名/路径?token=密码`，然后打开这两个网址查看：
     https://tls-ech.dev/    https://defo.ie/ech-check.php
 
