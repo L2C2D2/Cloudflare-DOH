@@ -1,6 +1,8 @@
 # Cloudflare-DOH
 
-一个简易的DOH服务器，可以部署在CF上，转发Google的DNS服务 (https://dns.google/dns-query)  ，可以用于ECH代理
+一个简易的DOH服务器，可以部署在CF上，转发Google的DNS服务 (https://dns.google/dns-query) 
+
+CF有自己的DNS服务器 (https://cloudflare-dns.com/dns-query)，理论上都通过CF的服务器速度应该差不多，但是实际试下来自己部署的DOH就是要快很多
 
 Gemini写的代码，希望有大佬可以帮忙改进一下
 
