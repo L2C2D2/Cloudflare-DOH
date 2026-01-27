@@ -4,7 +4,6 @@
 
 CF有自己的DNS服务器 (https://cloudflare-dns.com/dns-query) ，理论上都通过CF的服务器速度应该差不多，但是实际试下来自己部署的DOH就是要快很多
 
-Gemini写的代码，希望有大佬可以帮忙改进一下
 
 
 ## 特点：
