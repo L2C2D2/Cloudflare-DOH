@@ -16,8 +16,8 @@ export default {
       }
 
       url.searchParams.delete('token');
+     
       const targetUrl = 'https://dns.google/dns-query' + url.search;
-
       const newHeaders = new Headers(request.headers);
       newHeaders.set('Host', 'dns.google');
 
@@ -46,3 +46,4 @@ export default {
     return new Response('Not Found', { status: 404 });
   }
 };
+
