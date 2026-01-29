@@ -9,8 +9,8 @@ export default {
     // ------------------
 
     if (url.pathname === DOH_PATH) {
-      const token = url.searchParams.get('token');
 
+      const token = url.searchParams.get('token');
       if (token !== AUTH_TOKEN) {
         return new Response('Not Found', { status: 404 });
       }
@@ -45,5 +45,6 @@ export default {
     return new Response('Not Found', { status: 404 });
   }
 };
+
 
 
