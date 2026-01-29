@@ -43,8 +43,8 @@ export default {
       }
     }
 
-    return fetch(new Request('https://example.com' + url.pathname + url.search, {
-      headers: request.headers
-    }));
+    return new Response('', {
+      status: 200,
+    });
   }
 };
