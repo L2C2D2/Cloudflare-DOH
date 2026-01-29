@@ -14,7 +14,6 @@ export default {
       if (token !== AUTH_TOKEN) {
         return new Response('Not Found', { status: 404 });
       }
-
       url.searchParams.delete('token');
      
       const targetUrl = 'https://dns.google/dns-query' + url.search;
@@ -46,4 +45,5 @@ export default {
     return new Response('Not Found', { status: 404 });
   }
 };
+
 
