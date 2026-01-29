@@ -26,7 +26,7 @@ CF有自己的DNS服务器 (https://cloudflare-dns.com/dns-query) ，理论上�
 
     const AUTH_TOKEN = 'pass';  --这里修改Token，也就是密码；保留单引号
     
-    const DOH_PATH = '/dns-query';  --这里修改路径，前面的“/"要保留，如果直接访问域名是一个伪装页，只有使用正确的路径才能使用DOH服务；保留单引号
+    const DOH_PATH = '/dns-query';  --这里修改路径，前面的“/"和单引号都要保留，如果直接访问域名是一个404 Not Found页面，只有使用正确的路径才能使用DOH服务
     
     const ENABLE_CACHE = true;  --true/false，用来开启/关闭缓存功能 (一般开着就行了，不用改)
     
