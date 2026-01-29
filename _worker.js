@@ -36,9 +36,9 @@ export default {
 
       const response = await fetch(new Request(targetUrl, fetchOptions));
       return new Response(response.body, response);
-
     }
 
     return new Response('Not Found', { status: 404 });
   }
 };
+
